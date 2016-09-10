@@ -32,8 +32,7 @@ Swatahyoga includes support for Infinite Scroll in Jetpack.
 = 1.0 - May 12 2015 =
 * Initial release
 
-== Steps to setup live website ==
+== Credits ==
 
-1. Install wordpress at theroot of the repository.
-2. Checkout the required branch to get the theme.
-3. Activate the theme from the admin pannel.
+* Based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+* normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
