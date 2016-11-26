@@ -1,0 +1,18 @@
+# How to Use this theme?
+- Install Wordpress  - latest version
+- Upload "Swatahyoga Blog theme" and activate it
+- Open Appearance > Customize
+- Click on "Site Identity" and upload logo and Favicon and save 
+- Close Customize and back to Dashboard and click on left menu "Pages" 
+- Create a page "Home" and on right side option section - Page Attributes -> Template select "Home Page"
+- Similarly create one more page and name it "Blog" or any thing else and save it
+- Settings > Reading
+- In reading setting  under Front page display check "A Static page" -> Front page should be "Home" and Posts page should be "Blog or any name you created" and Save the changes.
+- Now install plugins 
+    - Cyclone Slider 2 (Inorder to show homepage slider)
+    - Contact From 7 (To create contact and other form)
+- Create all other static pages
+- Now create Primary (Top) Menu - Open Appearance > Menus 
+    - Menus option and setting - check the pages, posts, categories  or custom links that you want to show in primary nav and click Add to Menu button
+    - In Menu Structure section all the selected elements will shows up
+    - Drag and drop in-order to rearrange the menu and check Theme locations top checkbox and click "Save Menu"
