@@ -1,0 +1,58 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+
+/* ==============================
+	THEME STYLE
+============================== */ 
+
+aside {
+	section {
+		box-sizing: border-box;
+		border-top: 1px solid $color__background-hr;
+		padding-top: 10px;
+		&:first-child {
+		border-top: none;
+		padding-top: 0;
+		}
+	}
+}
+
+.blog {
+	aside {
+		.search-field {
+			width: 65%;
+		}
+		h2 {
+			font-size: 20px;
+		}
+
+		ul {
+			margin-left: 0;
+			li {
+			min-height: 115px;
+			}
+		}
+	}
+}

@@ -1,0 +1,68 @@
+ul, ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	&.list-with-thumb {
+		overflow: hidden;
+		li {
+			position: relative;
+			border-top: 1px solid $color__background-hr;
+			padding-top: 10px;
+			&:first-child {
+			border-top: none;
+			padding-top: 0;
+				img {
+				top: 5px;
+				}
+			}
+		}
+		img {
+			position: absolute;
+			left: 0;
+			top: 18px;
+		}
+
+		.info {
+			padding-left: 95px;
+
+			h4  {
+				margin:0 auto 10px;
+				color: $color__card-bg;
+				font-weight: 700;
+			}
+
+			.short-info  {
+				line-height: 1.2;
+				font-size: 16px
+			}
+
+		}
+	}
+}

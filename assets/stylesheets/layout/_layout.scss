@@ -1,0 +1,235 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+@import "content-sidebar";
+// @import "sidebar-content";
+
+
+/*--------------------------------------------------------------
+## Single Column / No Active Sidebar
+--------------------------------------------------------------*/
+.no-sidebar .site-main {
+  margin: 0;
+}
+
+.no-sidebar .content-area {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+## Posts
+--------------------------------------------------------------*/
+@import "posts";
+
+/*--------------------------------------------------------------
+## Pages
+--------------------------------------------------------------*/
+@import "pages";
+
+
+/* ==============================
+	THEME STYLE
+============================== */
+
+body {
+	background: url(assets/images/bg-texture.png) repeat 0 0;
+}
+
+.wrapper {
+	background: url(assets/images/bg.png) no-repeat 0 0; 
+    background-size: 100% auto;
+}
+
+.site {
+	max-width: 996px;
+	@include center-block();
+}
+
+.site-content {
+	background: url(assets/images/bg-texture.png) repeat 0 0;
+	box-sizing: border-box;
+	padding: 30px 20px 20px 20px;
+}
+
+.home {
+	.site-content  {
+		padding: 0;
+	}
+}
+
+.custom-logo-link {
+	display: block;
+	width: 148px;
+	margin: 30px auto 0;
+	outline: none;
+}
+
+
+/*
+Cyclone Slider 2 Start
+ */
+
+.cycloneslider-template-standard {
+	.cycloneslider-caption {
+	    background: $color__background-body !important;
+		color: $color__card-bg !important;
+		opacity: 0.8;
+	}
+	.cycloneslider-pager {
+		text-align: right !important;
+		left: auto !important;
+		right: 20px !important;
+		bottom: 16px !important;
+
+		span {
+			box-shadow: none !important;
+			background-color: $color__background-button !important;
+			&.cycle-pager-active {
+			background-color: $color__card-bg !important;
+			}
+		}
+	}
+
+	.cycloneslider-caption-description {
+		padding: 0 20px 8px 20px !important;
+	}
+}
+
+
+/*
+Cyclone Slider 2 End
+ */
+
+.card {
+	padding: 20px;
+	font-family: $font__main;
+	h2 {
+	margin: 0 0 5px;
+	}
+	p {
+		margin-bottom: 10px;
+		&:last-child {
+		margin-bottom: 0;
+		}
+	 }
+	&.card-blue {
+		background-color: $color__card-bg;
+		color: $color__background-body;
+	}
+
+}
+
+
+
+
+/*Helper Classes*/
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt20{
+	margin-top: 20px;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+.mt40 {
+	margin-top: 40px;
+}
+
+.mt50 {
+	margin-top: 50px;
+}
+
+.mb10{
+	margin-bottom: 10px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.mb30{
+	margin-bottom: 30px;
+}
+
+.mb40{
+	margin-bottom: 40px;
+}
+
+.mb50{
+	margin-bottom: 50px;
+}
+
+.pt10 {
+	padding-top: 10px;
+}
+
+.pt20{
+	padding-top: 20px;
+}
+
+.pt30 {
+	padding-top: 30px;
+}
+
+.pt40 {
+	padding-top: 40px;
+}
+
+.pt50 {
+	padding-top: 50px;
+}
+
+.pb10 {
+	padding-bottom: 10px;
+}
+
+.pb20 {
+	padding-bottom: 20px;
+}
+
+.pb30 {
+	padding-bottom: 30px;
+}
+
+
+.pb40 {
+	padding-bottom: 40px;
+}
+
+.pb50 {
+	padding-bottom: 50px;
+}
+
+
+/*Footer Style */
+
+.site-footer{
+	border-top: 1px dotted lighten($color__gray, 50%);
+	padding: 15px 0;
+	margin-top: 20px;
+
+	p {
+		font-size: 12px;
+		a {
+			text-decoration: none;
+		}
+	}
+}
