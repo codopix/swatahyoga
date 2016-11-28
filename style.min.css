@@ -93,13 +93,13 @@ li>ul,li>ol{margin-bottom:0;margin-left:1.5em}
 dt{font-weight:bold}
 dd{margin:0 1.5em 1.5em}
 .list{list-style:none;padding:0;margin:0}
-.list.list-with-thumb{overflow:hidden}
-.list.list-with-thumb li{position:relative;border-top:1px solid #ccc;padding-top:10px}
+.list.list-with-thumb{overflow:hidden;margin-bottom:20px}
+.list.list-with-thumb li{border-top:1px solid #ccc;padding-top:10px;margin-top:10px}
 .list.list-with-thumb li:first-child{border-top:0;padding-top:0}
 .list.list-with-thumb li:first-child img{top:5px}
-.list.list-with-thumb img{position:absolute;left:0;top:18px}
-.list.list-with-thumb .info{padding-left:95px}
-.list.list-with-thumb .info h4{margin:0 auto 10px;color:#0476aa;font-weight:700}
+.list.list-with-thumb img,.list.list-with-thumb .info{display:inline-block;*zoom:1;*display:inline;vertical-align:top}
+.list.list-with-thumb .info{max-width:70%;margin-left:10px}
+.list.list-with-thumb .info h4{margin:0 auto 10px;color:#0476aa;font-weight:700;line-height:1}
 .list.list-with-thumb .info .short-info{line-height:1.2;font-size:16px}
 table{margin:0 0 1.5em;width:100%}
 .main-navigation{clear:both;display:block;float:left;width:100%}
@@ -114,7 +114,7 @@ table{margin:0 0 1.5em;width:100%}
 .menu-toggle,.main-navigation.toggled ul{display:block}
 .menu-toggle:before{content:"\2630";display:inline-block;margin-right:5px}
 .main-navigation #top-menu li{float:none}
-.main-navigation #top-menu li a{color:#39313b;display:block;padding:10px 20px;margin:0 15px;font-weight:700}
+.main-navigation #top-menu li a{color:#39313b;display:block;padding:10px 15px;margin:0 15px;font-weight:700}
 .main-navigation #top-menu li a:hover{color:#89778e}
 .main-navigation #top-menu li a:active,.main-navigation #top-menu li a:visited{color:#39313b}
 .site-main .comment-navigation,.site-main .posts-navigation,.site-main .post-navigation{margin:0 0 1.5em;overflow:hidden}
