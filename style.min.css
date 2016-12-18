@@ -88,6 +88,7 @@ aside .search-form .search-submit:visited{color:#fff;background:#323231;border:1
 hr{background-color:#ccc;border:0;height:1px;margin-bottom:1.5em}
 ul,ol{margin:0 0 1.5em 3em}
 ul{list-style:disc}
+ul li{margin-bottom:1.2em}
 ol{list-style:decimal}
 li>ul,li>ol{margin-bottom:0;margin-left:1.5em}
 dt{font-weight:bold}
@@ -111,11 +112,13 @@ table{margin:0 0 1.5em;width:100%}
 .main-navigation ul li:hover>ul,.main-navigation ul li.focus>ul{left:auto}
 .main-navigation li{float:left;position:relative}
 .main-navigation a{display:block;text-decoration:none}
+.menu-primarynav-container{border-bottom:1px solid #a1c8dc}
+#top-menu li{margin-bottom:0}
 .menu-toggle,.main-navigation.toggled ul{display:block}
 .menu-toggle:before{content:"\2630";display:inline-block;margin-right:5px}
 .main-navigation #top-menu li{float:none}
 .main-navigation #top-menu li a{color:#39313b;display:block;padding:10px 15px;margin:0 15px;font-weight:700}
-.main-navigation #top-menu li a:hover{color:#89778e}
+.main-navigation #top-menu li a:hover{color:#615465}
 .main-navigation #top-menu li a:active,.main-navigation #top-menu li a:visited{color:#39313b}
 .site-main .comment-navigation,.site-main .posts-navigation,.site-main .post-navigation{margin:0 0 1.5em;overflow:hidden}
 .comment-navigation .nav-previous,.posts-navigation .nav-previous,.post-navigation .nav-previous{float:left;width:50%}
@@ -149,7 +152,7 @@ aside section:first-child{border-top:0;padding-top:0}
 body{background:url(assets/images/bg-texture.png) repeat 0 0}
 .wrapper{background:url(assets/images/bg.png) no-repeat 0 0;background-size:100% auto}
 .site{max-width:996px;display:block;margin-left:auto;margin-right:auto}
-.site-content{background:url(assets/images/bg-texture.png) repeat 0 0;box-sizing:border-box;padding:30px 20px 20px 20px}
+.site-content{box-sizing:border-box;padding:30px 20px 20px 20px}
 .home .site-content{padding:0}
 .custom-logo-link{display:block;width:148px;margin:30px auto 0;outline:0}
 .cycloneslider-template-standard .cycloneslider-caption{background:#fff !important;color:#0476aa !important;opacity:.8}

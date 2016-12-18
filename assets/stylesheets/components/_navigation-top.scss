@@ -70,6 +70,18 @@
 	}
 }
 
+
+.menu-primarynav-container {
+	border-bottom: 1px solid  #a1c8dc;
+}
+
+#top-menu {
+	li {
+		margin-bottom: 0;
+	}
+}
+
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -120,7 +132,7 @@
 				margin: 0 15px;
 				font-weight: 700;
 				&:hover {
-					color: lighten($color__primary-nav, 30%);
+					color: lighten($color__primary-nav, 15%);
 				}
 				&:active, &:visited {
 					color: $color__primary-nav;

@@ -4,6 +4,9 @@ ul, ol {
 
 ul {
 	list-style: disc;
+	li {
+		margin-bottom: 1.2em; 
+	}
 }
 
 ol {
@@ -74,3 +77,4 @@ dd {
 		}
 	}
 }
+
