@@ -151,7 +151,7 @@ aside section:first-child{border-top:0;padding-top:0}
 .blog aside h2,.blog aside h2.widget-title,#page-id-112 aside h2,#page-id-112 aside h2.widget-title{font-size:20px !important}
 .blog aside .widget ul,#page-id-112 aside .widget ul{margin-left:0}
 .blog aside .widget ul li,#page-id-112 aside .widget ul li{min-height:115px}
-#disciples-list .nav-stacked.affix{position:fixed;top:346px}
+#disciples-list .nav-stacked.affix{position:fixed;top:10px}
 .page-links{clear:both;margin:0 0 1.5em}
 #disciples-list h4{margin-bottom:10px}
 #disciples-list ul{list-style:none;margin:0;padding:10px 0 10px 10px}
