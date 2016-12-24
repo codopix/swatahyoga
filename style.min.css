@@ -161,7 +161,7 @@ aside section:first-child{border-top:0;padding-top:0}
 #main #tab_container_164 .tab-content,.tab-content{background:none !important;background-color:transparent !important;border:none !important;border-left:1px solid #e6e6e6 !important;font-family:"PT Sans",sans-serif !important;color:#403f3f}
 #main #tab_container_164 .wpsm_nav-tabs>li{background:none !important;background-color:transparent !important;font-family:"PT Sans",sans-serif !important;border:none !important}
 #main #tab_container_164 .wpsm_nav-tabs>li.active>a,#main #tab_container_164 .wpsm_nav-tabs>li.active>a:hover,#main #tab_container_164 .wpsm_nav-tabs>li.active>a:focus{background:none !important;background-color:transparent !important;font-family:"PT Sans",sans-serif !important}
-#main #tab_container_164 .wpsm_nav-tabs>li>a,#main #tab_container_164 .wpsm_nav-tabs>li>a:hover,#main #tab_container_164 .wpsm_nav-tabs>li>a:focus{text-align:right;background:none !important;background-color:transparent !important;border:none !important;border-bottom:1px solid #e6e6e6 !important;color:#403f3f}
+#main #tab_container_164 .wpsm_nav-tabs>li>a,#main #tab_container_164 .wpsm_nav-tabs>li>a:hover,#main #tab_container_164 .wpsm_nav-tabs>li>a:focus{text-align:right !important;background:none !important;background-color:transparent !important;border:none !important;border-bottom:1px solid #e6e6e6 !important;color:#403f3f;font-size:14px}
 #main #tab_container_164 .wpsm_nav-tabs>li>a:hover,#main #tab_container_164 .wpsm_nav-tabs>li>a:focus{color:#0d0c0c}
 #main #tab_container_164 .wpsm_nav-tabs>li:last-child>a{border-bottom:none !important}
 body{background:url(assets/images/bg-texture.png) repeat 0 0}
