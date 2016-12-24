@@ -247,7 +247,7 @@ dd { margin: 0 1.5em 1.5em; }
 
 .list.list-with-thumb { overflow: hidden; }
 
-.list.list-with-thumb li { border-top: 1px solid #ccc; padding-top: 10px; margin-top: 10px; }
+.list.list-with-thumb li { border-top: 1px solid #ccc; padding-top: 15px; margin-top: 10px; }
 
 .list.list-with-thumb li:first-child { border-top: none; padding-top: 0; }
 
