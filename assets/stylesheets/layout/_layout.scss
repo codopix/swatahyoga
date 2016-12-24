@@ -138,6 +138,18 @@ Cyclone Slider 2 End
 }
 
 
+#disciples-list {
+	.nav-stacked {
+		&.affix {
+			position: fixed;
+			top: 10px;
+			max-height: 610px;
+			overflow-y: auto;
+		}
+	}
+}
+
+
 
 
 /*Helper Classes*/
