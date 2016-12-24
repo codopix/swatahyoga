@@ -148,10 +148,10 @@ body{background:#fff}
 aside{padding-right:20px}
 aside section{box-sizing:border-box;border-top:1px solid #ccc;padding-top:10px}
 aside section:first-child{border-top:0;padding-top:0}
-.blog aside .search-field{width:65%}
-.blog aside h2{font-size:20px}
-.blog aside ul{margin-left:0}
-.blog aside ul li{min-height:115px}
+.blog aside .search-field,#page-id-112 aside .search-field{width:65%}
+.blog aside h2,#page-id-112 aside h2{font-size:20px}
+.blog aside ul,#page-id-112 aside ul{margin-left:0}
+.blog aside ul li,#page-id-112 aside ul li{min-height:115px}
 .page-links{clear:both;margin:0 0 1.5em}
 #disciples-list h4{margin-bottom:10px}
 #disciples-list ul{list-style:none;margin:0;padding:10px 0 10px 10px}
