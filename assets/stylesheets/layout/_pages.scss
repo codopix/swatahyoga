@@ -36,7 +36,7 @@
 }
 
 
-#tab_container_164 .tab-content,  .tab-content{
+#main #tab_container_164 .tab-content,  .tab-content{
 	background: none;
 	background-color: transparent !important;
 	border: none;
@@ -44,11 +44,15 @@
 	font-family:$font__main !important;
 }
 
-#tab_container_164 .wpsm_nav-tabs > li {
+#main  #tab_container_164 .wpsm_nav-tabs > li {
 	background: none !important;
 	background-color: transparent !important;
+	font-family: $font__main!important;
 }
 
-#tab_container_164 .wpsm_nav-tabs > li.active > a, #tab_container_164 .wpsm_nav-tabs > li.active > a:hover, #tab_container_164 .wpsm_nav-tabs > li.active > a:focus {
+
+#main  #tab_container_164 .wpsm_nav-tabs > li.active > a, 
+#main  #tab_container_164 .wpsm_nav-tabs > li.active > a:hover, 
+#main  #tab_container_164 .wpsm_nav-tabs > li.active > a:focus {
 	font-family: $font__main!important;
 }
