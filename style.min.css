@@ -95,7 +95,7 @@ dt{font-weight:bold}
 dd{margin:0 1.5em 1.5em}
 .list{list-style:none;padding:0;margin:0}
 .list.list-with-thumb{overflow:hidden}
-.list.list-with-thumb li{border-top:1px solid #ccc;padding-top:15px;margin-top:10px}
+.list.list-with-thumb li{border-top:1px solid #ccc;padding-top:14px;margin-top:10px}
 .list.list-with-thumb li:first-child{border-top:0;padding-top:0}
 .list.list-with-thumb li:first-child img{top:5px}
 .list.list-with-thumb img,.list.list-with-thumb .info{display:inline-block;*zoom:1;*display:inline;vertical-align:top}
