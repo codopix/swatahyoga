@@ -81,6 +81,7 @@
 	color: darken($color__text-main, 20%);
 }
 
-#main #tab_container_164 .wpsm_nav-tabs > li:last-child > a {
+#main #tab_container_164 .wpsm_nav-tabs > li:last-child > a,
+#main #tab_container_164 .wpsm_nav-tabs > li.active:last-child > a {
 	border-bottom: none !important;
 }
