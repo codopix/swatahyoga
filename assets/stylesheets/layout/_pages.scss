@@ -40,7 +40,7 @@
 	background: none !important;
 	background-color: transparent !important;
 	border: none !important;
-	border-left: 1px solid #e6e6e6 !important;
+	border-left: 1px solid $color__background-hr !important;
 	font-family:$font__main !important;
 	color: $color__text-main;
 }
@@ -58,6 +58,8 @@
 #main  #tab_container_164 .wpsm_nav-tabs > li.active > a:focus {
     background: none !important;
 	background-color: transparent !important;
+	border: none !important;
+	border-bottom: 1px solid $color__background-hr !important;
 	font-family: $font__main!important;
 	font-weight: bold !important;
 }
@@ -69,7 +71,7 @@
 	background: none !important;
 	background-color: transparent !important;
 	border: none !important;
-	border-bottom: 1px solid #e6e6e6 !important;
+	border-bottom: 1px solid $color__background-hr !important;
 	color: $color__text-main;
 	font-size: 14px;
 }
