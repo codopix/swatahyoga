@@ -37,9 +37,9 @@
 
 
 #main #tab_container_164 .tab-content,  .tab-content{
-	background: none;
+	background: none !important;
 	background-color: transparent !important;
-	border: none;
+	border: none !important;
 	border-left: 1px solid #e6e6e6 !important;
 	font-family:$font__main !important;
 }
@@ -48,11 +48,15 @@
 	background: none !important;
 	background-color: transparent !important;
 	font-family: $font__main!important;
+	border: none !important;
+	border-right: 1px solid #e6e6e6 !important;
 }
 
 
 #main  #tab_container_164 .wpsm_nav-tabs > li.active > a, 
 #main  #tab_container_164 .wpsm_nav-tabs > li.active > a:hover, 
 #main  #tab_container_164 .wpsm_nav-tabs > li.active > a:focus {
+    background: none !important;
+	background-color: transparent !important;
 	font-family: $font__main!important;
 }
