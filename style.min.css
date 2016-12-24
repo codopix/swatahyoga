@@ -123,6 +123,9 @@ table{margin:0 0 1.5em;width:100%}
 .main-navigation #top-menu li a:hover{color:#89778e}
 .main-navigation #top-menu li a:active,.main-navigation #top-menu li a:visited{color:#39313b}
 huge_it_slideshow_dots_thumbnails_1{top:auto;bottom:0}
+#disciples-list ul{list-style:none;margin:0;padding:10px 0}
+#disciples-list ul li{font-weight:bold}
+#disciples-list ul li ul{list-style:none;margin:0;padding:10px 0}
 .site-main .comment-navigation,.site-main .posts-navigation,.site-main .post-navigation{margin:0 0 1.5em;overflow:hidden}
 .comment-navigation .nav-previous,.posts-navigation .nav-previous,.post-navigation .nav-previous{float:left;width:50%}
 .comment-navigation .nav-next,.posts-navigation .nav-next,.post-navigation .nav-next{float:right;text-align:right;width:50%}
