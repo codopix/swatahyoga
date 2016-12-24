@@ -150,10 +150,23 @@
 					color: $color__primary-nav;
 				}
 			}
-			.current-menu-item  {
-				color: lighten($color__primary-nav, 20%);
-				border-bottom: 2px solid $color__link;
-				margin-bottom: -2px;
+			&.current-menu-item  {
+				a {				
+					border-bottom: 2px solid $color__background-screen;
+					margin-bottom: -2px;
+				}
+			}
+			&.current-menu-parent {
+				a {				
+					border-bottom: 2px solid $color__background-screen;
+					margin-bottom: -2px;
+				}
+				li.current-menu-item  {
+					a {				
+						border-bottom: none;
+						margin-bottom: 0;
+					}
+				}
 			}
 		}
 	}

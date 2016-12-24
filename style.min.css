@@ -122,7 +122,9 @@ table{margin:0 0 1.5em;width:100%}
 .main-navigation #top-menu li a{color:#39313b;display:block;padding:10px 15px;margin:0 15px;font-weight:700}
 .main-navigation #top-menu li a:hover{color:#89778e}
 .main-navigation #top-menu li a:active,.main-navigation #top-menu li a:visited{color:#39313b}
-.main-navigation #top-menu li .current-menu-item{color:#6f5f73;border-bottom:2px solid #0476aa;margin-bottom:-2px}
+.main-navigation #top-menu li.current-menu-item a{border-bottom:2px solid #f1f1f1;margin-bottom:-2px}
+.main-navigation #top-menu li.current-menu-parent a{border-bottom:2px solid #f1f1f1;margin-bottom:-2px}
+.main-navigation #top-menu li.current-menu-parent li.current-menu-item a{border-bottom:0;margin-bottom:0}
 huge_it_slideshow_dots_thumbnails_1{top:auto;bottom:0}
 .site-main .comment-navigation,.site-main .posts-navigation,.site-main .post-navigation{margin:0 0 1.5em;overflow:hidden}
 .comment-navigation .nav-previous,.posts-navigation .nav-previous,.post-navigation .nav-previous{float:left;width:50%}
