@@ -184,7 +184,7 @@ body{background:url(assets/images/bg-texture.png) repeat 0 0}
 .card p:last-child{margin-bottom:0}
 .card.card-blue{background-color:#0476aa;color:#fff}
 .huge_it_slideshow_dots_thumbnails_1{top:auto !important;bottom:0}
-#disciples-list .nav-stacked.affix{position:fixed;top:10px;max-height:610px;overflow-y:auto}
+#disciples-list .nav-stacked.affix{position:fixed;top:10px;max-height:610px;width:260px;overflow-y:auto}
 .mt10{margin-top:10px}
 .mt20{margin-top:20px}
 .mt30{margin-top:30px}
