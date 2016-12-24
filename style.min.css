@@ -180,7 +180,7 @@ body{background:url(assets/images/bg-texture.png) repeat 0 0}
 .card p{margin-bottom:10px}
 .card p:last-child{margin-bottom:0}
 .card.card-blue{background-color:#0476aa;color:#fff}
-.huge_it_slideshow_dots_thumbnails_1{top:auto;bottom:0}
+.huge_it_slideshow_dots_thumbnails_1{top:auto !important;bottom:0}
 .mt10{margin-top:10px}
 .mt20{margin-top:20px}
 .mt30{margin-top:30px}
