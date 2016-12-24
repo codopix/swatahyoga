@@ -150,6 +150,11 @@
 					color: $color__primary-nav;
 				}
 			}
+			.current-menu-item  {
+				color: lighten($color__primary-nav, 20%);
+				border-bottom: 2px solid $color__link;
+				margin-bottom: -2px;
+			}
 		}
 	}
 }
