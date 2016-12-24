@@ -42,6 +42,7 @@
 	border: none !important;
 	border-left: 1px solid #e6e6e6 !important;
 	font-family:$font__main !important;
+	color: $color__text-main;
 }
 
 #main  #tab_container_164 .wpsm_nav-tabs > li {
@@ -49,7 +50,6 @@
 	background-color: transparent !important;
 	font-family: $font__main!important;
 	border: none !important;
-	border-bottom: 1px solid #e6e6e6 !important;
 }
 
 
@@ -64,8 +64,19 @@
 #main #tab_container_164 .wpsm_nav-tabs > li > a,
 #main  #tab_container_164 .wpsm_nav-tabs > li > a:hover, 
 #main  #tab_container_164 .wpsm_nav-tabs > li > a:focus {
+	text-align: right;
 	background: none !important;
 	background-color: transparent !important;
 	border: none !important;
 	border-bottom: 1px solid #e6e6e6 !important;
+	color: $color__text-main;
+}
+
+#main  #tab_container_164 .wpsm_nav-tabs > li > a:hover, 
+#main  #tab_container_164 .wpsm_nav-tabs > li > a:focus {
+	color: darken($color__text-main, 20%);
+}
+
+#main #tab_container_164 .wpsm_nav-tabs > li:last-child > a {
+	border-bottom: none !important;
 }
