@@ -94,7 +94,7 @@ li>ul,li>ol{margin-bottom:0;margin-left:1.5em}
 dt{font-weight:bold}
 dd{margin:0 1.5em 1.5em}
 .list{list-style:none;padding:0;margin:0}
-.list.list-with-thumb{overflow:hidden;margin-bottom:20px}
+.list.list-with-thumb{overflow:hidden}
 .list.list-with-thumb li{border-top:1px solid #ccc;padding-top:10px;margin-top:10px}
 .list.list-with-thumb li:first-child{border-top:0;padding-top:0}
 .list.list-with-thumb li:first-child img{top:5px}
