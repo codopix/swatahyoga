@@ -47,11 +47,12 @@ aside {
 		h2, h2.widget-title {
 			font-size: 20px !important;
 		}
-
-		ul {
-			margin-left: 0;
-			li {
-			min-height: 115px;
+		.widget {
+			ul {
+				margin-left: 0;
+				li {
+				min-height: 115px;
+				}
 			}
 		}
 	}
