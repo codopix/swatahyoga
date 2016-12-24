@@ -34,3 +34,19 @@
 		 }
 	}
 }
+
+
+#tab_container_164.tab-content,  .tab-content{
+	background: none;
+	border: none;
+	border-left: 1px solid #e6e6e6 !important;
+	font-family:$font__main !important;
+}
+
+#tab_container_164 .wpsm_nav-tabs > li {
+	background: none !important;
+}
+
+#tab_container_164 .wpsm_nav-tabs > li.active > a, #tab_container_164 .wpsm_nav-tabs > li.active > a:hover, #tab_container_164 .wpsm_nav-tabs > li.active > a:focus {
+	font-family: $font__main!important;
+}
